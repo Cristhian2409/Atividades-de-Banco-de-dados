@@ -43,6 +43,36 @@ As ferramentas utlizadas foram o dbdesigner e brmodelo
 
 ---
 
+## Atividade 3: O Prisioneiro dos Dados  
+
+**Descrição:**  
+Esta atividade teve como objetivo o **povoamento do banco de dados hospitalar**, garantindo a inserção de dados essenciais para testes, validações e demonstrações de funcionamento do sistema.  
+
+Foram elaborados **scripts SQL** responsáveis por preencher todas as tabelas e relacionamentos definidos no modelo anterior, assegurando a integridade dos dados e o correto vínculo entre as entidades do sistema hospitalar.  
+
+
+**Dados Inseridos:** 
+- 👨‍⚕️ **10 médicos** de diferentes especialidades (pediatria, clínica geral, gastroenterologia, dermatologia, entre outras).  
+- 🧠 **7 especialidades médicas** distintas.  
+- 🧍‍♂️ **15 pacientes** cadastrados.  
+- 📅 **20 consultas** realizadas entre *01/01/2015* e *01/01/2022*, sendo 10 com receituário contendo dois ou mais medicamentos.  
+- 🏥 **4 convênios médicos**, vinculados a pacientes e consultas.  
+- 🛏️ **7 internações**, com diferentes **tipos de quarto** (apartamento, duplo e enfermaria).  
+- 💉 **10 enfermeiros**, com cada internação associada a pelo menos dois deles.  
+
+
+## 💾 Scripts SQL  
+
+Os scripts de povoamento foram desenvolvidos para simular o funcionamento real do sistema, permitindo o teste das operações de inserção, consulta e relacionamento entre as tabelas.  
+
+📂 **Exemplo ilustrativo:**  
+```sql
+-- Inserindo especialidades
+INSERT INTO especialidade (id_especialidade, nome) VALUES (1, 'Clínica Geral');
+
+-- Inserindo médicos
+INSERT INTO medico (id_medico, nome, id_especialidade) VALUES (1, 'Dr. João Silva', 1);
+
 
 
 > Novas atividades serão adicionadas neste README com suas respectivas modelagens ER e descrições.
