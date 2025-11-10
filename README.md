@@ -172,9 +172,8 @@ INSERT INTO Internacao_Enfermeiro (id_internacao, id_enfermeiro) VALUES
 **Descrição**
 Praticar alterações em tabelas e registros do banco de dados do hospital, adicionando uma coluna para indicar se o médico está ativo e atualizando seus status.
 
-## Scripts SQL
+**Scripts SQL**
 
-### 1️⃣ Adicionando coluna `em_atividade`
 ```sql
 -- Adicionar uma coluna na tabela medico
 ALTER TABLE medico
@@ -190,6 +189,7 @@ UPDATE Medico
 SET em_atividade = TRUE 
 WHERE id_medico NOT IN (2, 5);
 ```
+
 *Observações**
 
 - Médicos com id_medico 2 e 5 foram definidos como inativos (FALSE).
