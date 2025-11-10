@@ -32,4 +32,6 @@ O script de criação das tabelas está disponível na pasta `scripts`.
 
 ---
 
+A ferramentas utlizadas foram o dbdesigner
+
 > Novas atividades serão adicionadas neste README com suas respectivas modelagens ER e descrições.
