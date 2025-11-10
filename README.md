@@ -24,7 +24,8 @@ Expansão do modelo anterior, incluindo controle de internação de pacientes. F
 **Ferramenta utilizada:** DB Design  
 
 **Modelo Lógico**
-<img width="1380" height="731" alt="hospital_modelo_logico" src="https://github.com/user-attachments/assets/46a5749f-6a03-4fbd-9fc4-e7b9f41451e9" />
+<img width="1046" height="785" alt="hospital_modelo_logico" src="https://github.com/user-attachments/assets/f378380e-b5c0-4539-bc37-fa142631e3d5" />
+
 
 **Script SQL:**  
 O script de criação das tabelas está disponível na pasta `scripts`.  
