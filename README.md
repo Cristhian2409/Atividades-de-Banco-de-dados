@@ -19,11 +19,11 @@ Sistema para controlar consultas de um hospital, com cadastro de médicos (gener
 ## Atividade 2: Os Segredos do Hospital
 
 **Descrição:**  
-Expansão do modelo anterior, incluindo controle de internação de pacientes. Foram criadas novas entidades e relacionamentos, com definição de tipos de dados e integridade referencial, além de script SQL para criação do banco completo.  
+Expansão do modelo anterior, incluindo controle de internação de pacientes. Foram criadas novas entidades e relacionamentos, com definição de tipos de dados e integridade referencial, além de script SQL para criação do banco completo.Tudo sendo em Modelo lógico.  
 
 **Ferramenta utilizada:** DB Design  
 
-**Modelagem ER:**
+**Modelo Lógico**
 <img width="1380" height="731" alt="hospital_modelo_logico" src="https://github.com/user-attachments/assets/46a5749f-6a03-4fbd-9fc4-e7b9f41451e9" />
 
 **Script SQL:**  
