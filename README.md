@@ -14,8 +14,6 @@ Sistema para controlar consultas de um hospital, com cadastro de médicos (gener
 **Modelagem ER:**
 <img width="972" height="497" alt="hospital_1" src="https://github.com/user-attachments/assets/004221cd-5eb9-4139-af65-4ceefd350db1" />
 
-
-
 ---
 
 ## Atividade 2: Os Segredos do Hospital
@@ -26,7 +24,8 @@ Expansão do modelo anterior, incluindo controle de internação de pacientes. F
 **Ferramenta utilizada:** DB Design  
 
 **Modelagem ER:**
-![ER - Os Segredos do Hospital](caminho/para/imagem2.png)  
+![ER - Os Segredos do Hospital](<img width="1380" height="731" alt="hospital_modelo_logico" src="https://github.com/user-attachments/assets/46a5749f-6a03-4fbd-9fc4-e7b9f41451e9" />
+)  
 
 **Script SQL:**  
 O script de criação das tabelas está disponível na pasta `scripts`.  
