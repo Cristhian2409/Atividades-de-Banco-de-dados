@@ -31,10 +31,12 @@ Expansão do modelo anterior, incluindo controle de internação de pacientes. F
 O script de criação das tabelas está disponível na pasta `scripts`.  
 
 Parte 1 - Script
+
 <img width="708" height="721" alt="p1" src="https://github.com/user-attachments/assets/bd586a95-6867-4433-b9d3-42343ff672c5" />
 
 
 Parte 2 - Script
+
 <img width="781" height="763" alt="p2" src="https://github.com/user-attachments/assets/3c36adab-7b08-482b-bffa-d21296d46eae" />
 
 As ferramentas utlizadas foram o dbdesigner e brmodelo
