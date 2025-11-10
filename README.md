@@ -164,5 +164,37 @@ INSERT INTO Internacao_Enfermeiro (id_internacao, id_enfermeiro) VALUES
 (1, 1), (1, 2), (2, 3), (2, 4), (3, 5), (3, 6), (3, 1),
 (4, 7), (4, 8), (5, 9), (5, 10), (6, 1), (6, 3), (7, 2), (7, 4);
 
+```
+---
 
-> Novas atividades serão adicionadas neste README com suas respectivas modelagens ER e descrições.
+## Atividade 4: A Ordem do Alterar
+
+**Descrição**
+Praticar alterações em tabelas e registros do banco de dados do hospital, adicionando uma coluna para indicar se o médico está ativo e atualizando seus status.
+
+## Scripts SQL
+
+### 1️⃣ Adicionando coluna `em_atividade`
+```sql
+-- Adicionar uma coluna na tabela medico
+ALTER TABLE medico
+ADD COLUMN em_atividade BOOLEAN;
+
+-- Alterando dados colocar os medicos inativos
+UPDATE medico 
+SET em_atividade = FALSE 
+WHERE id_medico IN (2, 5);
+
+-- Alterando dados colocando ativos, exceto algunus
+UPDATE Medico 
+SET em_atividade = TRUE 
+WHERE id_medico NOT IN (2, 5);
+```
+*Observações**
+
+- Médicos com id_medico 2 e 5 foram definidos como inativos (FALSE).
+- Todos os demais médicos foram definidos como ativos (TRUE).
+
+Essa alteração permite controlar o status de atividade dos médicos no hospital, facilitando consultas e relatórios.
+
+
