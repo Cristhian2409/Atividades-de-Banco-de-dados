@@ -12,7 +12,8 @@ Sistema para controlar consultas de um hospital, com cadastro de médicos (gener
 **Ferramenta utilizada:** BR Modelo  
 
 **Modelagem ER:**
-<img width="1256" height="537" alt="hospital" src="https://github.com/user-attachments/assets/6de48959-04e1-4bb3-890b-b2e1249a6edb" />
+<img width="972" height="497" alt="hospital_1" src="https://github.com/user-attachments/assets/004221cd-5eb9-4139-af65-4ceefd350db1" />
+
 
 
 ---
